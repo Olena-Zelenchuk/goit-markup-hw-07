@@ -762,7 +762,7 @@ p {
   vertical-align: middle;
   height: 600px;
   background-color: rgba(47, 48, 58, 0.8);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.4) 50%), url("../../img/hero.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.4) 50%), url("../img/hero.jpg");
   background-size: cover;
 }
 
