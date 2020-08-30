@@ -1,3 +1,28 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../../fonts/roboto/Roboto.woff) format "woff", url(../../fonts/roboto/Roboto.woff2) format "woff2";
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../../fonts/roboto/Robotomedium.woff) format "woff", url(../../fonts/roboto/Robotomedium.woff2) format "woff2";
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../../fonts/roboto/Robotobold.woff) format "woff", url(../../fonts/roboto/Robotobold.woff2) format "woff2";
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../../fonts/roboto/Robotoblack.woff) format "woff", url(../../fonts/roboto/Robotoblack.woff2) format "woff2";
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url(../../fonts/raleway/ralewaybold.woff) format "woff", url(../../fonts/raleway/ralewaybold.woff2) format "woff2";
+}
+
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -293,6 +318,10 @@ body {
   margin-right: auto;
 }
 
+.pf-container {
+  margin-bottom: 50px;
+}
+
 section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -381,6 +410,179 @@ p {
   border-radius: 2px;
   color: #2196f3;
   background-color: #2196f3;
+}
+
+.pf-container {
+  margin-bottom: 50px;
+}
+
+.button-list {
+  display: flex;
+  justify-content: center;
+}
+
+.button-list-item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.btn-portfolio {
+  display: inline-flex;
+  padding: 6px 22px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #f5f4fa;
+  border-color: transparent;
+  border-radius: 4px;
+  box-shadow: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-portfolio:hover, .btn-portfolio:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects-list-item {
+  width: calc((100% - 30px * 2) / 3);
+  margin-right: 30px;
+  justify-content: center;
+  box-shadow: none;
+}
+
+.projects-list-item:hover, .projects-list-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.projects-list-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.projects-list-item:nth-child(n + 4) {
+  margin-top: 30px;
+}
+
+.projects-list-item a {
+  text-decoration: none;
+}
+
+.project-link p,
+h3 {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.portfolio-box {
+  position: relative;
+  height: 294px;
+  overflow: hidden;
+}
+
+.text-portfolio-box {
+  padding: 63px 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  color: #ffffff;
+  background: rgba(33, 150, 243, 0.9);
+}
+
+.projects-list-item:hover .text-portfolio-box {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.text-border {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #eeeeee;
+  border-top: none;
+  z-index: 3;
+}
+
+.names-pf {
+  margin-top: 0;
+  margin-bottom: 4px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.text-pf {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.btn {
+  display: inline-flex;
+  padding: 10px 32px;
+  min-width: 200px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #2196f3;
+  border: transparent;
+  box-shadow: none;
+}
+
+.btn:hover, .btn:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.modal .btn {
+  justify-content: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.modal-button {
+  position: absolute;
+  top: 4px;
+  right: 8px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-button:hover, .modal-button:focus {
+  fill: #2196f3;
+  outline: none;
 }
 
 .mailing-block {

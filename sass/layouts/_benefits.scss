@@ -8,18 +8,6 @@
   &-item {
     width: calc((100% - 30px * 3) / 4);
     margin-right: 30px;
-
-    &-item::before {
-      display: block;
-      content: " ";
-      width: 270px;
-      height: 120px;
-      border-radius: 4px;
-      background-color: #f5f4fa;
-
-      background-repeat: no-repeat;
-      background-position: center;
-    }
   }
 
   &-title {
@@ -27,6 +15,18 @@
     margin-top: 30px;
     margin-bottom: 10px;
   }
+}
+
+.benefits-item::before {
+  display: block;
+  content: " ";
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  background-color: #f5f4fa;
+
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .benefits-item.item-details::before {
