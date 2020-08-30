@@ -706,10 +706,10 @@ p {
 
 .navigation {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
   justify-content: space-between;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav-list {
@@ -899,7 +899,7 @@ p {
 }
 
 .team-social-link {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 44px;

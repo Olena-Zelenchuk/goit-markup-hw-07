@@ -31,9 +31,8 @@
 }
 
 .team-social-link {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+  @include centreflex();
+
   width: 44px;
   height: 44px;
   border-radius: 50%;

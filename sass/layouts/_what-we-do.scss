@@ -17,9 +17,8 @@
 }
 
 .what-we-do-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centreflex();
+
   width: 370px;
   height: 70px;
 
