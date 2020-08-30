@@ -809,19 +809,19 @@ p {
 }
 
 .benefits-item.item-details::before {
-  background-image: url("../../img/icons/details.svg");
+  background-image: url("../img/icons/details.svg");
 }
 
 .benefits-item.item-punctual::before {
-  background-image: url("../../img/icons/punctual.svg");
+  background-image: url("../img/icons/punctual.svg");
 }
 
 .benefits-item.item-planing::before {
-  background-image: url("../../img/icons/planing.svg");
+  background-image: url("../img/icons/planing.svg");
 }
 
 .benefits-item.item-technology::before {
-  background-image: url("../../img/icons/technology.svg");
+  background-image: url("../img/icons/technology.svg");
 }
 
 .benefits-title,
@@ -1012,19 +1012,19 @@ p {
 }
 
 .item-instagram {
-  background-image: url("../../img/icons/instagramft.svg");
+  background-image: url("../img/icons/instagramft.svg");
 }
 
 .item-twitter {
-  background-image: url("../../img/icons/twitterft.svg");
+  background-image: url("../img/icons/twitterft.svg");
 }
 
 .item-facebook {
-  background-image: url("../../img/icons/facebookft.svg");
+  background-image: url("../img/icons/facebookft.svg");
 }
 
 .item-linkin {
-  background-image: url("../../img/icons/linkedinft.svg");
+  background-image: url("../img/icons/linkedinft.svg");
 }
 
 .address {
