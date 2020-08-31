@@ -677,7 +677,7 @@ p {
 .form-field-agree-input:checked + .checked-icon {
   border-color: #2196f3;
   background-color: #2196f3;
-  background-image: url(../../img/check.svg);
+  background-image: url(../img/check.svg);
   background-size: contain;
   background-origin: border-box;
 }
