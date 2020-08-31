@@ -29,10 +29,12 @@
   text-decoration: none;
 }
 
-.project-link p,
-h3 {
-  padding-left: 24px;
-  padding-right: 24px;
+.project-link {
+  p,
+  h3 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 }
 
 .portfolio-box {
@@ -88,7 +90,7 @@ h3 {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.02em;
-  
+
   color: $dark-text-color;
 }
 

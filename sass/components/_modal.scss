@@ -16,8 +16,10 @@
   pointer-events: none;
 }
 
-.backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(1.5);
+.backdrop.is-hidden {
+  .modal {
+    transform: translate(-50%, -50%) scale(1.5);
+  }
 }
 
 .modal {
@@ -26,13 +28,15 @@
   left: 50%;
 
   padding: 40px;
+
   display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
   flex-direction: column;
   width: 528px;
   height: 581px;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
 
   background-color: rgb(255, 255, 250);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -55,11 +59,11 @@
 
     color: $dark-text-color;
   }
-}
 
-.modal-text {
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.364;
-  letter-spacing: 0.06em;
+  &-text {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.364;
+    letter-spacing: 0.06em;
+  }
 }

@@ -100,7 +100,7 @@
   display: flex;
   justify-content: start;
   align-items: center;
-  
+
   width: 100%;
   margin-top: 30px;
   margin-bottom: 35px;
@@ -111,26 +111,26 @@
     display: flex;
     align-items: center;
     padding-left: 20px;
+  }
 
-    .form-field-agree-input {
-      position: absolute;
-      appearance: none;
-      -webkit-appearance: none;
-      -moz-appearance: none;
-    }
+  &-input {
+    position: absolute;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
 
-    .checked-icon {
-      position: absolute;
-      transform: translateX(-20px);
+  .checked-icon {
+    position: absolute;
+    transform: translateX(-20px);
 
-      display: inline-block;
-      width: 16px;
-      height: 15px;
-      border: 2px solid $dark-text-color;
-      border-radius: 2px;
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    border: 2px solid $dark-text-color;
+    border-radius: 2px;
 
-      transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .form-field-link {

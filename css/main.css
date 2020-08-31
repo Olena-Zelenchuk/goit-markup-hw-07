@@ -1,26 +1,36 @@
 @font-face {
   font-family: "Roboto";
-  src: url(../../fonts/roboto/Roboto.woff) format "woff", url(../../fonts/roboto/Roboto.woff2) format "woff2";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto/roboto-v20-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/roboto/roboto-v20-latin_cyrillic-regular.woff") format("woff");
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url(../../fonts/roboto/Robotomedium.woff) format "woff", url(../../fonts/roboto/Robotomedium.woff2) format "woff2";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto/roboto-v20-latin_cyrillic-500.woff2") format("woff2"), url("../fonts/roboto/roboto-v20-latin_cyrillic-500.woff") format("woff");
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url(../../fonts/roboto/Robotobold.woff) format "woff", url(../../fonts/roboto/Robotobold.woff2) format "woff2";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto/roboto-v20-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/roboto/roboto-v20-latin_cyrillic-700.woff") format("woff");
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url(../../fonts/roboto/Robotoblack.woff) format "woff", url(../../fonts/roboto/Robotoblack.woff2) format "woff2";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/roboto/roboto-v20-latin_cyrillic-900.woff2") format("woff2"), url("../fonts/roboto/roboto-v20-latin_cyrillic-900.woff") format("woff");
 }
 
 @font-face {
   font-family: "Raleway";
-  src: url(../../fonts/raleway/ralewaybold.woff) format "woff", url(../../fonts/raleway/ralewaybold.woff2) format "woff2";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/raleway/raleway-v17-latin_cyrillic-900.woff2") format("woff2"), url("../fonts/raleway/raleway-v17-latin_cyrillic-900.woff") format("woff");
 }
 
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
@@ -485,12 +495,12 @@ p {
   left: 50%;
   padding: 40px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   flex-direction: column;
   width: 528px;
   height: 581px;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
   background-color: #fffffa;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -636,14 +646,14 @@ p {
   padding-left: 20px;
 }
 
-.form-field-agree-label .form-field-agree-input {
+.form-field-agree-input {
   position: absolute;
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
 }
 
-.form-field-agree-label .checked-icon {
+.form-field-agree .checked-icon {
   position: absolute;
   transform: translateX(-20px);
   display: inline-block;

@@ -3,16 +3,17 @@
   margin-top: 20px;
 }
 
-.mailing-block .btn::after {
-  content: " ";
-  background-image: url("../../img/icons/sendicon.svg");
-  background-repeat: no-repeat;
-  margin-left: 10px;
-  width: 24px;
-  height: 24px;
-}
-
-.mailing-block .btn:hover {
-  color: $main-white-color;
-  background-color: $accent-color;
+.mailing-block {
+  .btn::after {
+    content: " ";
+    background-image: url("../../img/icons/sendicon.svg");
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+  }
+  .btn:hover {
+    color: $main-white-color;
+    background-color: $accent-color;
+  }
 }

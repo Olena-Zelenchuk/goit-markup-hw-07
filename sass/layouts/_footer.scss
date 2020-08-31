@@ -22,7 +22,7 @@
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.03em;
-  
+
   color: $main-white-color;
 
   &-list {
@@ -105,9 +105,11 @@
   }
 }
 
-.address p {
-  display: inline-block;
-  margin-bottom: 9px;
+.address {
+  p {
+    display: inline-block;
+    margin-bottom: 9px;
+  }
 }
 
 .address-link:not(:last-child) {
